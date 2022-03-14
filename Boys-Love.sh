@@ -1,5 +1,5 @@
 #!/bin/bash
-cd home/Documents/Ancestral-BoysLove-Project #Setting work directory
+cd Documents/Ancestral-BoysLove-Project #Setting work directory
 
 R #Run R console
   if(!require("ape")){install.packages("ape")} #Installing "ape" package
