@@ -1,12 +1,14 @@
 #!/bin/bash
 cd Documents/Ancestral-BoysLove-Project #Setting work directory
 
+sudo apt-get install libxml2-dev
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install libssl-dev
+
 R #Run R console
   if(!require("ape")){install.packages("ape")} #Installing "ape" package
-  q() #Exit R console and returning to bash
+  if(!require("ape")){install.packages("rexpokit")}
+  if(!require("ape")){install.packages("cladoRcpp")}
+  if(!require("ape")){install.packages("devtools", dependencies = TRUE)}
   
-sudo apt-get -y install python3-pip 
-python3 -m pip install lagrange #Installing "lagrange" package
-
-python3 #Run Python console
-  exit() #Exit Python console and returning to bash
+  q() #Exit R console and returning to bash
