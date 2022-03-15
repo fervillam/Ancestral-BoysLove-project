@@ -5,7 +5,7 @@ data = """\
 ### begin data
 {'area_adjacency': [[1, 1], [1, 1]],
  'area_dispersal': [[[1.0, 1.0], 
-                      1.0, 1.0]]],
+                     [1.0, 1.0]]],
  'area_labels': ['A', 'B'],
  'base_rates': '__estimate__',
  'dispersal_durations': [10.0],
