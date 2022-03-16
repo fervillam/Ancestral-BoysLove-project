@@ -1,4 +1,6 @@
 
+setwd(getwd())
+
 #Installing required packages
 if(!require("ape")){install.packages("ape")}
 if(!require("ape")){install.packages("rexpokit")}
