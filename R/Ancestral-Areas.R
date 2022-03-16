@@ -16,3 +16,15 @@ library(devtools)
 
 devtools::install_github(repo="nmatzke/BioGeoBEARS", INSTALL_opts="--byte-compile")
 
+equal_BL_2x2 <- read.tree("Equal-BL-2x2.tre")
+equal_BL_3x1 <- read.tree("Equal-BL-3x1.tre")
+
+equal_areas <- getranges_from_LagrangePHYLIP("Equal-Area-distribution.data")
+unequal_areas <- getranges_from_LagrangePHYLIP("Unequal-Area-distribution.data")
+
+max_range_size <- 2
+
+run_DEC <- define_BioGeoBEARS_run()
+
+run_DEC$trfn <- equal_BL_2x2
+run_DEC$geogfn <- equal_areas
