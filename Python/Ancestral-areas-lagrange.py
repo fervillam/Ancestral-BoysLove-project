@@ -13,7 +13,7 @@ data = """\
  'excluded_ranges': [],
  'lagrange_version': '20120508',
  'max_range_size': 2,
- 'model_name': 'psychotria',
+ 'model_name': 'boyslove',
  'newick_trees': [{'included': '__all__',
                    'name': 'Equal-BL-2x2',
                    'newick': '((t1:1.00,t2:1.00):1.00,(t3:1.00,t4:1.00):1.00);',
