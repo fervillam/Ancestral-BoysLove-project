@@ -15,6 +15,7 @@ python2 -m pip install lagrange
 
 
 R #Run R console
+  Rscript Graph-Trees.R
   Rscript Ancestral-areas-R
   
   q() #Exit R console and returning to bash
